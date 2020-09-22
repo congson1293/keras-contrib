@@ -3,7 +3,7 @@ import warnings
 import h5py
 import keras.backend as K
 from keras import optimizers
-from keras.engine import topology as saving
+from keras.engine import saving
 
 
 def save_all_weights(model, filepath, include_optimizer=True):
